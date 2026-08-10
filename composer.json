@@ -1,5 +1,6 @@
 {
-    "name": "blutrixx/pdf-renderer",
+    "name": "blutrixx/nativephp-pdf-renderer",
+    "version": "1.0.0",
     "description": "Native PDF page rendering for NativePHP Mobile via Android PdfRenderer",
     "type": "nativephp-plugin",
     "license": "MIT",

@@ -1,0 +1,21 @@
+{
+    "name": "blutrixx/pdf-renderer",
+    "description": "Native PDF page rendering for NativePHP Mobile via Android PdfRenderer",
+    "type": "nativephp-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blutrixx\\PdfRenderer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blutrixx\\PdfRenderer\\PdfRendererServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    }
+}

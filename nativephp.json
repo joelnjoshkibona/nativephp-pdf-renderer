@@ -1,0 +1,29 @@
+{
+    "namespace": "PdfRenderer",
+    "bridge_functions": [
+        {
+            "name": "PdfRenderer.RenderPage",
+            "android": "com.blutrixx.pdfreader.PdfRendererFunctions.RenderPage",
+            "android_params": ["activity"],
+            "description": "Render a PDF page to a PNG file using Android PdfRenderer; returns cachePath, width, height"
+        },
+        {
+            "name": "PdfRenderer.GetPageCount",
+            "android": "com.blutrixx.pdfreader.PdfRendererFunctions.GetPageCount",
+            "android_params": ["activity"],
+            "description": "Return the total number of pages in a PDF file"
+        },
+        {
+            "name": "PdfRenderer.GetPageDimensions",
+            "android": "com.blutrixx.pdfreader.PdfRendererFunctions.GetPageDimensions",
+            "android_params": ["activity"],
+            "description": "Return native width and height of a PDF page without rendering; returns width, height"
+        },
+        {
+            "name": "PdfRenderer.RenderThumbnail",
+            "android": "com.blutrixx.pdfreader.PdfRendererFunctions.RenderThumbnail",
+            "android_params": ["activity"],
+            "description": "Render page 1 at a small width as a cover thumbnail PNG; returns cachePath, width, height"
+        }
+    ]
+}

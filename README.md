@@ -9,7 +9,7 @@ Current release: `v1.0.0`
 ## Requirements
 
 - PHP ^8.1 (see the package's `composer.json` for the exact constraint)
-- A Laravel app running under `nativephp/mobile`
+- A Laravel app running under `nativephp/mobile` ^3.3 (enforced by `composer.json`; 4.x is not supported yet)
 - No extra Android permissions or dependencies — `android.graphics.pdf.PdfRenderer` is part of the Android SDK itself (API 21+).
 
 ## Installation
